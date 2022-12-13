@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo of JQuery AJAX using the NASA images api</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+<main>
+    <section>
+        <h1>Demo of JQuery AJAX using the NASA images api</h1>
+        <article>
+            <h2>Search</h2>
+            <p>Free text search: <input id="free_text_search"></p>
+            <p>Keywords, comma separated: <input id="keyword_search"></p>
+            <p>NASA id: <input id="nasa_id_search"></p>
+            <button id="start_send_button">Search!</button>
+        </article>
+        <article>
+            <h2>Server response</h2>
+            <p id="status_code"></p>
+            <p id="explanation"></p>
+        </article>
+        <article>
+            <h2>Result</h2>
+            <p id="title"></p>
+            <p id="description"></p>
+            <p id="nasa_id"></p>
+        </article>
+    </section>
+</main>
+<script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+<script src="example.js"></script>
+</body>
+</html>
